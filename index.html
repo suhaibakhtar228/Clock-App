@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="clock">
+    <h2>Current: Time & Date</h2>
+    <h2 id="currenttime">00:00:00</h2>
+    <h2 id="currentdate">01/01/2000</h2>
+</div>
+
+<div class="box">
+    <h2>Stopwatch</h2>
+    <h2 id="stopwatchTime">00:00:00</h2>
+
+    <div id="stopwatch">
+        <button id="start" onclick="startStopwatch()">start</button>
+        <button id="stop" onclick="stopStopwatch()">stop</button>
+        <button id="reset" onclick="resetStopwatch()">reset</button>
+    </div>
+</div>
+
+<div class="box">
+    <h2>Alarm Clock</h2>
+    <input type="time" id="alarmInput">
+    <button onclick="setAlarm()">set alarm</button>
+    <button onclick="stopAlarm()">stop alarm</button>
+    <p id="alarmStatus"></p>
+    <audio id="alarmSound" src="audiomp3.wav" type="audio/wav" preload="auto" loop></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

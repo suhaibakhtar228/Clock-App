@@ -1,0 +1,57 @@
+
+body {
+    background-color: #080808;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+    border: 3px solid #0047AB;
+    min-height: 300px;
+}
+
+h2 {
+    color: #BFFF00;
+}
+
+#clock {
+    background-color: #111827;
+    padding: 25px;
+    border: 2px solid #0047AB;
+    border-radius: 10px;
+}
+
+.box {
+    background-color: #111827;
+    padding: 25px;
+    margin-top: 25px;
+    border: 2px solid #0047AB;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #0047AB;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #BFFF00;
+    color: black;
+}
+
+input {
+    background-color: #080808;
+    color: #BFFF00;
+    padding: 10px;
+    border: 1px solid #0047AB;
+    border-radius: 5px;
+}
+
+#alarmStatus {
+    color: #BFFF00;
+}
